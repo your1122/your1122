@@ -1,16 +1,16 @@
-### Hi there 👋
+# This is a basic workflow to help you get started with Actions
 
-<!--
-**your1122/your1122** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+name: CI
 
-Here are some ideas to get you started:
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of o
